@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status"
+        android:background="@color/text_bule"
+        android:fitsSystemWindows="true"/>
+    <include
+        layout="@layout/title_back"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/img_bulidmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="matrix"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:text="温馨提示：可通过手指拖动及缩放查看"
+            android:textSize="@dimen/text_center"
+            android:textColor="@color/shenhui"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

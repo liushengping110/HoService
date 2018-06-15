@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250px"
+    android:minHeight="180px"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textview_categoryname"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:minHeight="180px"
+        android:textSize="@dimen/text_center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/goods_category_list_bg"
+        />
+
+        <TextView
+            android:id="@+id/text_medmess_num"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:text="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_samll"
+            android:background="@drawable/foodtype_bg"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            />
+    <View
+        android:layout_width="250px"
+        android:layout_height="3px"
+        android:background="@color/danhui"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

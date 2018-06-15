@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status"
+        android:background="@color/text_bule"
+        android:fitsSystemWindows="true"
+        />
+       <FrameLayout
+        android:id="@+id/frame_bg"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center|left"
+            android:src="@drawable/turn_search_left" />
+
+        <TextView
+            android:id="@+id/tv_search_bg"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/store_search_edit_bg"
+            android:layout_marginRight="150px"
+            android:layout_marginLeft="150px"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="150px"
+            android:layout_marginLeft="150px"
+            android:background="@null"
+            android:gravity="center"
+            android:textCursorDrawable="@drawable/edittext_cursor_bg"
+            android:hint="搜索商家、商品名称"
+            android:textSize="@dimen/text_cs" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:textSize="@dimen/text_cs"
+            android:text="搜索"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/text_fz" />
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="历史记录"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:textColor="@color/text_zw"
+            android:textSize="@dimen/text_center"
+            android:layout_marginLeft="15dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/img_del"
+            android:layout_width="90px"
+            android:padding="15px"
+            android:layout_marginRight="50px"
+            android:layout_height="match_parent"
+            android:src="@drawable/store_search_del"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/frame_content_bg"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <wizrole.hoservice.view.CustTextView
+                android:id="@+id/list_histroy"
+                android:orientation="horizontal"
+                android:paddingRight="40px"
+                android:paddingTop="20px"
+                android:paddingBottom="20px"
+                android:paddingLeft="40px"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="110dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_center"
+            android:text="住院服务版本已更新，请点击【下载】,完成安装"
+            android:gravity="center"
+            />
+</LinearLayout>

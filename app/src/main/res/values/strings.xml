@@ -1,0 +1,407 @@
+<resources>
+    <string name="scroll_behavior">@string/appbar_scrolling_view_behavior</string>
+    <string name="detail_header_behavior">wizrole.hoservice.view.DetailHeaderBehavior</string>
+    <string name="app_name">住院服务</string>
+    <string name="login_system">患者住院服务登录</string>
+    <string name="auto_login">自动登录</string>
+    <string name="auto_login_succ">自动登录成功</string>
+    <string name="please_write_name">请输入入院登记号</string>
+    <string name="please_write_tel">请输入入院预留手机号码</string>
+    <string name="login">登录</string>
+    <string name="no_sd">未找到存储卡，无法存储照片！</string>
+    <string name="tel_djh_no">登记号与手机号码不匹配</string>
+    <string name="patient_no_hos">当前患者不在院</string>
+    <string name="login_auto_fail">自动登录失败，请检查网络！</string>
+    <string name="login_success">登录成功</string>
+    <string name="userName_err">入院编号错误</string>
+    <string name="systom_no_search">系统未查询到</string>
+    <string name="userName_rule">入院编号格式不合法</string>
+    <string name="id_err">手机号码错误</string>
+    <string name="id_rule">手机号码长度11位，请查证后输入</string>
+    <string name="name_password_err">入院编号或手机号码不匹配</string>
+    <string name="name_password">入院编号或手机号码错误，请查证后输入</string>
+    <string name="no_look_err">系统中未查询到结果，请查证后输入</string>
+    <string name="no_hos">登录失败</string>
+    <string name="no_hos_err">当前患者不在院，请查证后输入</string>
+    <string name="name_null">入院编号不存在，请重新输入</string>
+    <string name="drawer_open">开</string>
+    <string name="drawer_close">关</string>
+    <string name="first_page">住院智能服务系统</string>
+    <string name="set">设置中心</string>
+    <string name="now_go_login">当前你未登录，请登录后进行安全设置！</string>
+    <string name="about">关于我们</string>
+    <string name="start">请选择开始时间</string>
+    <string name="start_time">开始时间为:</string>
+    <string name="end">请选择结束时间</string>
+    <string name="end_time">结束时间为:</string>
+    <string name="help">帮助说明</string>
+    <string name="s_e_text">提示:起止时间范围为一个星期</string>
+    <string name="zhuxiao">注销</string>
+    <string name="nav_name">患者姓名：</string>
+    <string name="person_infor">个人信息</string>
+    <string name="pay_list">费用清单</string>
+    <string name="doc_advice">检查医嘱</string>
+    <string name="base_infor">基本信息</string>
+    <string name="hos_infor">住院信息</string>
+    <string name="med_message">医疗消息 </string>
+    <string name="hos_system">住院服务</string>
+    <string name="health_know">健康知识</string>
+    <string name="search_result">搜索结果</string>
+
+    <string name="yshg">月嫂护工</string>
+    <string name="eat">餐饮点餐</string>
+    <string name="my_order">我的订单</string>
+    <string name="no_sore">当前暂无商家</string>
+    <string name="shopping">超市购物</string>
+    <string name="doc_intrduce">专家介绍</string>
+    <string name="dria">住院指南</string>
+    <string name="abouthos">关于我院</string>
+    <string name="service">住院服务</string>
+    <string name="free_jn">押金缴纳</string>
+    <string name="free_jl">缴费记录</string>
+    <string name="xmxq">项目详情</string>
+    <string name="xmlb">项目列表</string>
+    <string name="edit_free_num">请输入缴费金额</string>
+    <string-array name="pay">
+        <item>清单明细</item>
+        <item>统计信息</item>
+    </string-array>
+    <string name="selcet_date">选择查看日期</string>
+    <string name="see_date">你当前查看的日期是：</string>
+    <string name="year">年</string>
+    <string name="set_day">设置日期信息</string>
+    <string name="set_s_day">设置开始日期</string>
+    <string name="set_e_day">设置结束日期</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="base_infor_fail">基本信息获取失败</string>
+
+    <string name="name">姓名：</string>
+    <string name="safe_center">安全中心</string>
+    <string name="sex">性别：</string>
+    <string name="tel">电话号码：</string>
+    <string name="hos_number">住院号：</string>
+    <string name="brith">出生日期：</string>
+    <string name="department">入院科室：</string>
+    <string name="diagnosis">诊断：</string>
+    <string name="docMedUnit">医疗单元：</string>
+    <string name="ward">病区：</string>
+    <string name="FeeSelf">余额：</string>
+    <string name="data_hos">入院日期：</string>
+    <string name="hos_jz">就诊号：</string>
+
+    <string name="examine_type">检查项目</string>
+    <string name="number">数量</string>
+    <string name="price">总价 </string>
+    <string name="med_type">药品名称</string>
+    <string name="surgery_type">手术项目</string>
+    <string name="back">返回</string>
+    <string name="login_again">请重新登录，修改手势密码</string>
+    <string name="login_again_clear">重新登录验证成功后，可由【设置中心】新建手势密码，请牢记！</string>
+    <string name="aleradly_select">已选</string>
+    <string name="company_intrduce">\t\t\t\t北京维思陆科技有限公司位于中关村科技园望京科技园区，是国家高新技术企业
+        、双软企业、中国医院信息协会理事单位、国家科技创新基金扶持企业。</string>
+    <string name="company_intrduce_two">\t\t\t\t北京维思陆科技有限公司定位于医疗服务信息化和智能区域医疗领域，
+        拥有十多年信息化服务从业经验的强大专业团队，致力于打造医疗服务信息化领域业务专耕、体系完备、资源集中的企业平台</string>
+    <string name="company_intrduce_three">\t\t\t\t维思陆以成就客户为目的，依靠强大的技术实力和优质的服务，以更有竞争力的产品
+    和服务充分满足广大客户的需求，实现与客户的长期合作与共赢</string>
+    <string name="company_add">\t\t\t\t公司地址：北京市朝阳区红军营南路安鑫办公F2-30</string>
+    <string name="company_tel">\t\t\t\t电话：010-84712666</string>
+    <string name="about_my_hos">\t\t\t\t徐州市中心医院暨东南大学附属徐州医院始建于1953年，目前是淮海经济区规模大、综合实力强、技术水平高、百姓口碑好的三级甲等综合性医院。医院现占地24.4万平米，建筑面积47万平米，目前高层建筑3幢、多层建筑7幢。坚持“以病人为中心、以质量为核心、以医生为轴心、以服务献爱心”的服务理念，为病人提供了优质、高效、安全、方便的服务，取得了良好的社会效益和经济效益，先后获得全国卫生系统先进集体、全国模范职工之家、全国改革创新医院、全国百姓放心百佳示范医院、江苏省文明单位、江苏省卫生系统先进集体等荣誉称号。</string>
+    <string name="rencai">人才队伍:</string>
+    <string name="rencai_de">全院现有职工总数5239人，其中高级职称721人，博士、硕士研究生783人，享受国务院特殊津贴者8人，全国卫生系统先进工作者2人，省医生终身荣誉奖3人，省专业技术二级岗位（正高二级）1人，省六大高峰人才17人，江苏省有突出贡献专家8人，省333工程培养对象38人，江苏省医学重点人才2人，江苏省双创博士12人、徐州市双创博士1 人；徐州市优秀专家、拔尖人才59人，徐州市医学领军人才培养对象5人，博士、硕士生导师123人，省级以上学会主任委员、副主任委员32人。</string>
+    <string name="jishu">技术力量:</string>
+    <string name="jishu_de">拥有86个临床专业（病区）、27个医技专业。其中
+省级临床重点专业11个：心血管内科、急诊医学科、口腔科、康复科、泌尿外科、内分泌科、妇科、肿瘤内科、骨科、影像科（放射科、超声科、CT 核磁、介入微创外科）、中医科；
+国家级示范中心：胸痛中心
+江苏省医学创新团队：泌尿外科
+国家卫计委内镜与微创医学培训基地8个：泌尿外科、普外科、骨科、妇产科、胸外科、耳鼻喉头颈外科、消化内科、血管介入科
+徐州市市级诊疗中心3个：心血管病诊疗中心、康复医学诊疗中心、内分泌诊疗中心
+    徐州市级临床重点专业33个：重症医学科、普外科(血甲疝微创外科、肝胆胰脾外科、乳腺外科、胃肠外科、肛肠科)、产科、神经外科、 眼科、心外科、胸外科、放疗科、呼吸科、肾内科、儿科、生殖中心（建设单位）、血液科、消化科、神经内科、风湿科、整形外科、麻醉科、核医学科、药 剂 科、检 验 科、病理科、心血管护理、危重症护理、急诊急救护理、普外科护理、肾内科护理。
+    徐州市重点实验室5个：内分泌与代谢病实验室、重症医学实验室、HLA基因测序实验室、临床免疫与变态反应实验室、心血管分子生物学实验室。
+    国家药监总局认定的国家药物临床试验机构9个：口腔科、内分泌科、妇产科、肿瘤内科、肿瘤外科、神经内科、呼吸科、风湿免疫科、骨科
+ 徐州市医疗急救中心、徐州市道路交通事故抢救中心也设在我院。</string>
+
+    <string name="yiliao">医疗设备:</string>
+    <string name="yiliao_de">医院主体建筑楼目前有：门诊病房楼、医技病房楼、心脏诊疗中心楼、肿瘤诊疗研究所楼（原综合病房楼）、儿童诊疗中心楼、体检中心等。医院开放床位逾5500张，拥有先进的病房设施和重症监护病房，具有较强的院前、院内综合急救能力。拥有设备总量、总额、先进性区域领先， PET—CT、640排CT、宝石能谱CT、64排螺旋CT、核磁共振(3.0T)、1.5T核磁共振、心血管造影机、瑞士瓦里安直线加速器、飞秒激光等设备，万元以上设备4318台，设备总值7.85亿元。</string>
+    <string name="keyan">科研教学:</string>
+    <string name="keyan_de">医院现为东南大学医学院附属徐州医院、南京中医药大学附属徐州中心医院、南京中医药大学徐州中西医结合临床医学院、徐州医学院徐州临床学院、山东潍坊医学院徐州口腔临床学院，徐州市心血管病研究所、徐州市医学科学研究所、东南大学（徐州）肿瘤研究所、东南大学（徐州）生殖医学研究所，设有国家人社部批准的博士后科研工作站。院士工作站，已有口腔科张志愿、泌尿外科孙颖浩2位院士先后进站。建立了先进的中心实验室和临床技能培训中心， 医院被授予国家住院医师规范化培训基地，31个专业通过现场验收，数量位居全省第一；是江苏省首批全科医生规范化培养示范基地、江苏省住院医师规范化培养基地、江苏省医师定期考核机构、江苏省医师变更执业范围（临床类别）业务培训机构、淮海经济区基层医疗骨干培训基地。</string>
+    <string name="menji">门急诊服务:</string>
+    <string name="menji_de">在全市率先推出周日专家门诊、专家全日制门诊、专科专病门诊、名专家会诊中心、预约门诊等特色门诊。制定并完善了中毒、创伤、急性心肌梗死与恶性心律失常、脑卒中四种危重病的急救流程，急救绿色通道更加畅通；开通了网上预约、现场预约、电话预约等多种挂号方式，开通了掌上门诊，支付宝服务窗，可以网上查阅检验报告、自助挂号，自助打印检验报告单等服务；所有医技科室均实行了限时服务，成立了“医院志愿者服务队”，在就诊高峰期协助门诊管理。推出 96120健康呼叫热线，开展预约挂号、导医导诊、专家咨询健康热线服务。在门诊大厅开展义诊服务及疑难杂症义诊专场。
+     住院服务：医院成立住院病人服务中心，帮助病人从入院、住院到出院全程生活服务。在全国率先实施住院医疗费用一日一清单制度。积极开展医患沟通，开展健康教育，各病种病友联谊会定期召开，寓教于乐深受欢迎。医保农保政策讲解到床头、订饭送饭到床头、自费出院结算到床头、新农合住院病人现场直报。要住院到四院，在徐州乃至周边地区形成共识。</string>
+    <string name="yiyuan">医院文化:</string>
+    <string name="yiyuan_de">全体医护人员牢牢树立“大医至精、大德至诚、大术至臻、大爱至仁”的院训，全员树立“真诚为患者、永远是朋友”的服务理念。机关工作人员做到“员工至尊、患者至上、忠于职守、乐于奉献”，临床医护人员做到“看一个病人、献一片爱心、树一次形象、交一个朋友”。</string>
+    <string name="fuwu">服务能力:</string>
+    <string name="fuwu_de">医疗服务辐射苏鲁豫皖四省接壤地区近20个地市、147个县区；新城区医院（脑科医院）一期工程建筑面积16万平方米，配有一流的CT、核磁、X光机、DSA、超声、生化检验仪等设备，拥有先进的手术室和重症监护室，分门诊、急诊和11个住院病区，开放床位600张，2016年分院完成门诊量110476人次，住院病人9020人次，手术903例次。
+             医院托管了徐州市医学科学研究所，筹建内分泌代谢病医院；兼并了原老年病医院，创建徐州市康复医院（三级医院），托管睢宁县双沟中心卫生院。在苏鲁豫皖四省接壤地区，建成的“徐州市中心医院医疗集团”，下辖26家二级以上医院、200家乡镇卫生院、10余家社区卫生服务中心。
+      2016年，医院门诊量291万人次，出院病人数19.4万人次，手术人数6.7万人次，出院病人数和手术例数位居全省第一，门诊量位居苏北第一。2012—2014年连续三年获得全省三级医院出院病人问卷调查满意度第一名。</string>
+
+
+    <string name="one">入院接诊程序</string>
+    <string name="two">\t\t病人拿入院通知单到护士中心站---办公护士安排床位、通知医生---责任护士护理查体---责任护士做入院宣传---责任护士执行医嘱</string>
+    <string name="three">出院须知</string>
+    <string name="four">\t\t1、遵照医嘱坚持服药，不可擅自停药或减药，病人服药期间，如出现病情变化，及时来院就诊。</string>
+    <string name="five">\t\t2、观察病人的饮食和排便情况。</string>
+    <string name="six">\t\t3、正确对待患者，尽量避免精神刺激，以减轻精神压力，保持精神愉快。</string>
+    <string name="seven">\t\t4、做好对病人的安全监护，以防自伤、伤人或毁物发生。</string>
+    <string name="eight">\t\t5、家属须注意病人进食过程中的安全，病人有无药物反应。</string>
+
+    <string-array name="order_time">
+        <item>尽快送达</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+    </string-array>
+
+    <string name="erweima">请使用\t\t【支付宝】\t\t扫描二维码进行押金缴纳！</string>
+
+
+    <string name="mzyygh_one">\t\t\t尊敬的患者朋友，为方便您就医，徐州市中心医院专家门诊提供预约挂号服务，为方便您按时、有序就诊，避免长时间候诊，欢迎您选择门诊分时段预约。</string>
+    <string name="mzyygh_two">\t\t\t一、预约方式：现场、电话、诊间预约、手机预约、网上预约五种（需要提供身份证号码），普通门诊、专家门诊均可预约。</string>
+    <string name="mzyygh_three">\t\t\t二、预约时间（现场预约提前半天以上，其他预约提前1-7天）。</string>
+    <string name="mzyygh_four">\t\t\t\t\t\t现场预约：挂号收费处， 时间：正常上班时间。</string>
+    <string name="mzyygh_five">\t\t\t\t\t\t电话预约：提前1-7天，即可开始预约。</string>
+    <string name="mzyygh_six">\t\t\t\t\t\t时\t\t间：7*24小树提供电话预约服务，预约电话：0516-96120</string>
+    <string name="mzyygh_seven">\t\t\t现场预约：挂号收费处，正常上班时间。</string>
+    <string name="mzyygh_eight">\t\t\t\t\t\t诊间预约：门诊医生登陆门诊医生工作站完成预约，正常上班时间。</string>
+    <string name="mzyygh_nine">\t\t\t\t\t\t出院预约：住院所在科室医生在病区登陆医生工作站完成预约，正常上班时间。</string>
+    <string name="mzyygh_ten">\t\t\t\t\t\t网络预约：省集约平台：http://js.guahao.com，提前1-7天，可在任意时间预约。</string>
+    <string name="mzyygh_ele">\t\t\t\t\t\t手机预约：手机登陆点击掌上门诊，下载手机客户端后即可进行手机预约，提前1-7天，可在任意时间预约。</string>
+    <string name="mzyygh_twl">\t\t\t三、温馨提示</string>
+    <string name="mzyygh_third">\t\t\t1.预约挂号一律采用实名制，请提供姓名、身份证号码、就诊卡号、联系电话（最好为手机号码，以便医生停诊时医院电话通知）等真实信息。网上预约时请按照网页上提示填写预约表单。</string>
+    <string name="mzyygh_fourt">\t\t\t2.预约成功后，请您根据预约时间，在就诊日提前30分钟至挂号收费处取号后至就诊区域候诊。逾时15分钟未到者，视为本次预约自动放弃，医院将收回其预约的名额，以便将有限的资源留给其他的患者。</string>
+    <string name="mzyygh_fit">\t\t\t3.如预约者需变更预约，请拨打0516-96120取消本次预约或登陆医院网站取消预约。</string>
+    <string name="mzyygh_sixt">\t\t\t4.专家门诊时间以当日公布为准，如专家坐诊时间出现临时变更，我们将根据您的要求再次确定预约时间或安排相当级别专家为您接诊。</string>
+    <string name="mzyygh_sevt">\t\t\t5.对70岁以上老人、残疾人等特殊人群优先安排。</string>
+    <string name="mzyygh_eightt">\t\t\t6.以上条款最终解释权归徐州市中心医院所有，如有疑问，请拨打：051683956035咨询。</string>
+
+    <string name="wifi_err">数据获取失败，请检查网络</string>
+    <string name="wifi_err_try_again">重新加载</string>
+    <string name="data_numm">当前暂无数据</string>
+    <string name="null_pay_list">当前日期暂无费用清单</string>
+    <string name="text_scroll_title">当前网络连接失败</string>
+    <string name="text_scroll_content">很抱歉，网络数据获取失败，请检查网络后重试！</string>
+    <string name="no_advice">很抱歉，当前日期暂无检查医嘱！</string>
+    <string name="buildmap">院内建筑分布及楼层索引</string>
+    <string name="deparent_list">科室列表</string>
+    <string name="deparent_intrduces">科室介绍</string>
+    <string name="deparent_doc">科室医生</string>
+    <string name="no_deparent">无科室列表</string>
+    <string name="now_getData">正在获取数据,请稍候...</string>
+    <string name="long_now_getData">检验报告获取耗时可能稍长，请稍候...</string>
+    <string name="wxts">温馨提示</string>
+    <string name="pdf_download">PDF文件正在下载，请稍候...</string>
+    <string name="download_success">下载成功</string>
+    <string name="write_fail">很抱歉，写入权限授权失败!</string>
+    <string name="read_fail">很抱歉，读取权限授权失败!</string>
+    <string name="pdf_onopen">PDF文档正在打开,请稍候...</string>
+    <string name="fckx">妇产科学</string>
+    <string name="no_data">当前暂无数据！</string>
+    <string name="dis_list">疾病列表</string>
+    <string name="no_deparent_search">科室搜索无结果</string>
+    <string name="no_sur_search">手术搜索无结果</string>
+    <string name="no_doc_search">医生搜索无结果</string>
+    <string name="no_dis">当前暂无疾病数据</string>
+    <string name="no_hyjc_data">当前暂无化验检查数据</string>
+    <string name="bottom_no_data">已经加载到最后了，没有数据了</string>
+    <!--<string name="refresh_success">刷新成功</string>-->
+    <string name="noti_mess">通知消息</string>
+    <string name="dis_knowledge">疾病知识</string>
+    <string name="write_dis">请输入要查询的疾病，可模糊查询</string>
+    <string name="null_data">无</string>
+    <string name="search">搜索</string>
+    <string name="doc_intrduces">医生介绍</string>
+    <string name="no_xianzhi">不限</string>
+    <string name="zhicheng">职称</string>
+    <string name="zhuren_doc">主任医师</string>
+    <string name="fzhuren_doc">副主任医师</string>
+    <string name="all_deparent">全部科室</string>
+    <string name="lock_try_again">重新加载</string>
+    <string name="no_doc">很抱歉，当前暂无医生列表！</string>
+    <string name="doc_center">医生主页</string>
+    <string name="gonggao">最新公告</string>
+    <string name="dongtai">医院动态</string>
+    <string name="tongzhi">通知消息</string>
+    <string name="change_add">修改地址</string>
+    <string name="man">先生</string>
+    <string name="woman">女士</string>
+    <string name="add_address">添加地址</string>
+    <string name="getbaby_name">收货人姓名不能为空</string>
+    <string name="getbaby_tel">收货人电话不能为空</string>
+    <string name="getbaby_add">收货人地址不能为空</string>
+    <string name="sel_sex">请选择性别</string>
+    <string name="lock_mima">设置手势密码</string>
+    <string name="mima_lengh">至少选中四位密码</string>
+    <string name="set_mima_again">请再次设置一遍相同的手势密码</string>
+    <string name="set_mima_ok">手势密码设置成功，请牢记！</string>
+    <string name="mima_again_diff">两次手势密码不一致，请重新设置</string>
+    <string name="hos_guide">就医指南</string>
+    <string name="heal_edu">健康教育</string>
+    <string name="heal_tool">智能导诊</string>
+    <string name="heal_gongju">健康工具</string>
+    <string name="heal_vedio">健康视频</string>
+    <string name="no_vedio">很抱歉，当前暂无健康视频！</string>
+    <string name="heal_baike">健康百科</string>
+    <string name="hos_gk">医院概况</string>
+    <string name="hos_intrduces">医院介绍</string>
+    <string name="hos_message">住院消息</string>
+    <string name="other_message">其他消息</string>
+    <string name="no_hos_message">很抱歉，当前暂无住院消息!</string>
+    <string name="hos_in_guide">院内导航</string>
+    <string name="hosdeparent_search">请输入科室或医生，可模糊查询</string>
+    <string name="jianyanbg">检验报告</string>
+    <string name="sure_order">确认订单</string>
+    <string name="set_a_add">请设置一个收货地址</string>
+    <string name="no_sel_baby">未选购商品</string>
+    <string name="order_bz">订单备注</string>
+    <string name="order_bznum">很抱歉，当前字数超过限制。</string>
+    <string name="car_no_sel_baby">购物车没有选中的商品</string>
+    <string name="sel_to_buy_baby">请选择需要购买的商品</string>
+    <string name="hyjcxm">化验检查项目详细信息</string>
+    <string name="edit_hyjcxm">请输入要查询的化验检验项目，支持模糊查询</string>
+    <string name="hyjc">化验检查</string>
+    <string name="no_hyjc">很抱歉，当前暂无化验检查种类</string>
+    <string name="xm_list">项目列表</string>
+    <string name="no_dis_data">当前暂无疾病数据</string>
+    <string name="djh_null">入院登记号不能为空</string>
+    <string name="tel_null">手机号码不能为空</string>
+    <string name="login_fail">登录失败，请检查网络！</string>
+    <string name="login_succ">登录成功</string>
+    <string name="logining">登录中,请稍候...</string>
+    <string name="lock_again_shutdown">再按一次退出程序</string>
+    <string name="med_seach">药品查询</string>
+    <string name="yyghxz">预约挂号须知</string>
+    <string name="mzxz">门诊须知</string>
+    <string name="mzlc">门诊流程</string>
+    <string name="mzksfbt">门诊科室分布图</string>
+    <string name="xxnr">详细内容</string>
+    <string name="gdnr">更多内容</string>
+    <string name="news_list">新闻列表</string>
+    <string name="no_news_list">当前暂无新闻列表</string>
+    <string name="yzssmm">验证手势密码</string>
+    <string name="please_yzssmm">请验证手势密码!</string>
+    <string name="set_hand_mima">设置手势密码</string>
+    <string name="change_hand_mima">修改手势密码</string>
+    <string name="sorry_sjzhsb">很抱歉，数据转换失败</string>
+    <string name="mmcw">密码错误五次，请查证后再试！</string>
+    <string name="mmzq">密码正确！</string>
+    <string name="new_set_mm">密码正确,请设置您的新密码！</string>
+    <string name="mmcw_yz">密码错误,请检查手势密码后解锁</string>
+    <string name="sur_list">手术列表</string>
+    <string name="advice_no">意见反馈不能为空</string>
+    <string name="user_advice">意见反馈</string>
+    <string name="edit_sur">请输入要查询的手术，支持模糊查询</string>
+    <string name="search_try_again">很抱歉，当前搜索无结果，请检查后重新搜索！</string>
+    <string name="vedio_play_fail">很抱歉，当前视频播放失败！</string>
+    <string name="version_update">版本更新</string>
+    <string name="version_num">V\t\t</string>
+    <string name="west_med">西药查询</string>
+    <string name="a">阿</string>
+    <string name="ybbr">医保病人就医流程</string>
+    <string name="west_med_name">药品名称不能为空</string>
+    <string name="search_west_med">请输入要查询的药品名称，支持模糊查询</string>
+    <string name="now_add">正在加载...</string>
+    <string name="no_know">未知</string>
+    <string name="no_login">很抱歉，当前您还没有登录！</string>
+    <string name="no_open">很抱歉，此功能暂未开放，敬请期待</string>
+    <string name="caram_no">相机权限授予失败！</string>
+    <string name="med_search">请输入您要查询的药品名称首字母</string>
+    <string name="search_no_result">很抱歉，搜索无结果，请重新输入！</string>
+    <string name="mc">名称：</string>
+    <string name="gs">概述：</string>
+    <string name="zzqy">症状起因：</string>
+    <string name="jbzd">鉴别诊断：</string>
+    <string name="rhyf">如何预防：</string>
+    <string name="ysyj">饮食宜忌：</string>
+    <string name="zlff">治疗方法：</string>
+    <string name="all_body">全身</string>
+    <string name="header">头部</string>
+
+    <string-array name="font_left">
+        <item>鼻</item>
+        <item>耳</item>
+        <item>咽喉</item>
+        <item>颈部</item>
+        <item>肺及肺系</item>
+        <item>胸腔</item>
+        <item>上腹</item>
+        <item>生殖</item>
+        <item>精神</item>
+    </string-array>
+
+    <string-array name="font_right">
+        <item>眼</item>
+        <item>面</item>
+        <item>食道</item>
+        <item>口腔</item>
+        <item>乳房</item>
+        <item>胸部</item>
+        <item>心脏</item>
+        <item>全腹</item>
+        <item>腹部</item>
+        <item>皮肤</item>
+    </string-array>
+
+    <string-array name="after_left">
+        <item>头颈部</item>
+        <item>上肢</item>
+        <item>背部</item>
+        <item>腰骶部</item>
+        <item>下肢</item>
+    </string-array>
+
+    <string-array name="after_right">
+        <item>血液</item>
+        <item>骨骼</item>
+        <item>四肢</item>
+        <item>手/足</item>
+        <item>神经</item>
+    </string-array>
+
+    <string name="sjkd">很抱歉，检验查询跨度为一周,请重新选择时间区间</string>
+    <string name="sjcg">开始时间超过结束时间，请重新选择时间区间</string>
+
+    <!-- Gesture login activity -->
+    <string name="gesture_forget_gesture">忘记手势密码</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">手势密码输入错误</string>
+    <string name="gesture_correct">输入正确</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
+    <string name="create_gesture_default">绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+    <string name="cust_msg_one">4月6日下午，我院召开党建与党风廉政建设工作会议，认真学习贯彻党的十九大精神和习近平总书记在十九届中央纪委二次全会重要讲话精神,全面落实省、市卫生计生委党风廉政建设工作会议和市纪委十二届三次全会的工作部署,总结2017年我院党建暨党风廉政建设情况,分析研判当前形势任务，部署2018年工作。院长王培安主持会议，党委书记杨晶讲话，院党委委员、副院长崔怀信传达全市卫生计生委党风廉政建设工作会议精神。
+会议充分肯定2017年我院党建暨党风廉政建设工作取得的成绩。2017年,我院的党建暨党风廉政建设工作在市委、市政府和市卫生计生委党委的正确领导下，认真学习贯彻党的十九大精神和习近平新时代中国特色社会主义思想，坚定不移地贯彻全面从严治党的要求, 加强医院党的建设，提高医院基层党建工作水平，认真落实党风廉政建设责任制,促进医院党的建设和业务工作相融合，取得了良好的成效。
+会议指出，2017年院党委始终坚持和加强党的全面领导,强化“一岗双责”,健全完善“一把手负总责,分管领导各负其责,班子成员齐抓共管”的领导体制和工作机制；始终把学习贯彻十九大精神和习近平新时代中国特色社会主义思想作为首要政治任务, 深入推进“两学一做”学习教育常态化制度化；严格执行民主集中制,认真落实“三重一大”集体讨论决策制度, 强化党内监督；严格执行干部人事制度；强化“三清示范区”建设,进一步优化医疗服务环境，加强对重点岗位、重点环节、重点部门的监督；认真贯彻落实中央整治“四风”的要求，推动作风建设常态化；以巡察整改为契机，全面落实从严治党责任，召开专题会议，组成工作班子，明确责任科室制定整改措施、整改时限，确保党的基本理论、基本路线、基本方略在我院得到贯彻落实。
+会议明确，2018年,我院党风廉政建设工作的总体要求是:以习近平新时代中国特色社会主义思想为指导,深入贯彻党的十九大精神和习近平总书记视察徐州重要指示,不忘初心,牢记使命,增强“四个意识”,坚定“四个自信”,以党的政治建设为统领,推进全面从严治党,全面落实“两个责任”,持之以恒正风肃纪,强化监督执纪问责,进一步完善不敢腐、不能腐、不想腐的防控机制,为医疗事业改革发展营造风清气正的政治生态。2018年要进一步强化压力传导,层层压实责任，全面落实党风廉政建设责任制；要把党的政治建设摆在首位,做好接受政治巡察的各项准备工作；2018年为党支部规范化建设年，要以提升组织力为抓手，以落实全面从严治党为主线开展“好支部建设”活动，提高党支部规范化建设水平；要坚持不懈推进行风建设、继续推进廉政风险防控机制建设；要从严管理干部,进一步规范干部选拔任用工作。
+会议要求，2018年是贯彻党的十九大精神的开局之年,是决胜全面建成小康社会、实施“十三五”规划承上启下的关键一年,也是深化卫生计生事业改革发展的重要一年，全院干部职工要更加紧密地团结在以习近平同志为核心的党中央周围,在市委市政府的坚强领导下,不忘初心、牢记使命,不断开创党风廉政建设工作的新局面，为医院实现新的跨越式发展作出更大的贡献!
+医院领导班子成员、各临床医技科室科主任护士长、职能科室负责人及支部书记200多人参加会议。 </string>
+    <string name="cust_msg_two">4月6日下午，我院召开安全生产工作会议。医院领导班子成员、各临床、医技科室科主任、护士长、职能科室负责人参加会议，院长王培安主持会议并讲话，副院长袁庆密传达省市级卫生计生委安全生产工作会议精神。
+会议对2018年医院安全生产工作提出了四点要求:一是要明确责任，合理分工，落实到人;各科室负责人要自觉履行第一责任人的职责，医疗服务、安全生产一起抓。二要完善安全生产工作方案，完善安全生产各项制度，认真遵守医院各项规章制度、诊疗规范和操作指南，切实把安全生产的主体责任落到实处。三要认真落实安全生产责任，做好科室的安全生产大检查，全面排查各类安全隐患，特别是春季消防安全，电器产品及线路使用管理方面存在的问题隐患和违章违规行为;要完善安全生产应急预案，提升应急处置能力，切实防范安全生产事故的发生。四要建立健全安全生产检查制度，要做到有检查记录、记录及时存档。
+          王培安院长在讲话中指出，医院安全生产工作必须以习近平新时代中国特色社会主义思想为指导，全面贯彻落实党的十九大精神，牢固树立安全发展理念，大力弘扬生命至上、安全第一的思想；必须坚决贯彻落实省、市各级政府对安全生产工作的部署要求，坚持“常规性工作抓深化，基础性工作上台阶，创新性工作求突破”的工作原则，以强化预防、落实责任、依法治理、夯实基础为主要措施，严格落实安全生产（消防）目标管理，筑牢安全生产责任网络，把各项措施落到实处。王培安院长要求，各科室负责人要迅速传达此次安全生产工作会议精神到每一位医院职工(含进修、实习员工)，全员要高度重视安全生产工作，各科室部门要把该项工作贯穿于日常工作中、作为一项重要任务抓好落实，要结合医院实际，进一步完善制度措施，突出重点部位、薄弱环节，重在平时排除隐患、把不安全苗头扼杀在萌芽状态，做细做实医院管理、医疗运行等方方面面的工作，创建平安医院，真正做到"病人至上，安全第一"，为人民幸福生活保驾护航、为健康徐州作贡献！</string>
+</resources>

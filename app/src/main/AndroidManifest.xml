@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wizrole.hoservice">
+
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 文件创建、删除权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 文件读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACTION_MEDIA_MOUNTED" />
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activity.SplashActivity"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 注册Activity -->
+        <!--登录-->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <!--主Activity-->
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <!--锁屏解锁后的验证手势密码-->
+        <activity
+            android:name=".activity.OnResumeActivity"
+            android:screenOrientation="portrait" />
+        <!--关于我们-->
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <!--设置手势密码-->
+        <activity
+            android:name=".activity.GestureLockActivity"
+            android:screenOrientation="portrait" />
+        <!--设置-->
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <!--安全设置-->
+        <activity
+            android:name=".activity.SafeActivity"
+            android:screenOrientation="portrait" />
+        <!--医生列表-->
+        <activity
+            android:name=".activity.DocIntrduceActivity"
+            android:screenOrientation="portrait" />
+        <!--订单确认-->
+        <activity
+            android:name=".life.view.SureOrderActivity"
+            android:screenOrientation="portrait" />
+        <!--收货地址列表-->
+        <activity
+            android:name=".activity.AddressListActivity"
+            android:screenOrientation="portrait" />
+        <!--收货地址编辑-->
+        <activity
+            android:name=".activity.EditAddressActivity"
+            android:screenOrientation="portrait" />
+        <!--订单备注-->
+        <activity
+            android:name=".life.view.OrderOtherActivity"
+            android:screenOrientation="portrait" />
+        <!--我的订单-->
+        <activity
+            android:name=".activity.MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <!--意见反馈-->
+        <activity
+            android:name=".activity.UserAdviceActivity"
+            android:screenOrientation="portrait" />
+        <!--医院概况-->
+        <activity
+            android:name=".activity.HosIntrducActivity"
+            android:screenOrientation="portrait" />
+        <!--医院介绍详情-->
+        <activity
+            android:name=".activity.HosIntrSinglActivity"
+            android:screenOrientation="portrait" />
+        <!--科室列表-->
+        <activity
+            android:name=".activity.DeparentActivity"
+            android:screenOrientation="portrait" />
+        <!--科室搜索-->
+        <activity
+            android:name=".activity.HosSearchActivity"
+            android:screenOrientation="portrait" />
+        <!--科室介绍详情-->
+        <activity
+            android:name=".activity.DeparentIntrduActivity"
+            android:screenOrientation="portrait" />
+        <!--个人基本信息-->
+        <activity
+            android:name=".activity.PerInforActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PayActivity"
+            android:screenOrientation="portrait" />
+        <!--检查医嘱-->
+        <activity
+            android:name=".activity.AdviceActivity"
+            android:screenOrientation="portrait" />
+        <!--就医指南-->
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait" />
+        <!--门诊指南-->
+        <activity
+            android:name=".activity.MenzhenGuideActivity"
+            android:screenOrientation="portrait" />
+        <!--门诊指南项目-->
+        <activity
+            android:name=".activity.MenzhenGhActivity"
+            android:screenOrientation="portrait" />
+        <!--缴费-->
+        <activity
+            android:name=".activity.DepositActivity"
+            android:screenOrientation="portrait" />
+        <!--门诊就医流程-->
+        <activity
+            android:name=".activity.MenzhenLcActivity"
+            android:screenOrientation="portrait" />
+        <!--医保就医流程-->
+        <activity
+            android:name=".activity.YiBaoGuideActivity"
+            android:screenOrientation="portrait" />
+        <!--楼层索引-->
+        <activity
+            android:name=".activity.BulidMapActivity"
+            android:screenOrientation="portrait" />
+        <!--院内导航-->
+        <activity
+            android:name=".activity.HosnavigaActivity"
+            android:screenOrientation="portrait" />
+        <!--门诊楼层科室分布-->
+        <activity
+            android:name=".activity.MenzhenMapActivity"
+            android:screenOrientation="portrait" />
+        <!--医院动态公告-->
+        <activity
+            android:name=".activity.HosdynamicActivity"
+            android:screenOrientation="portrait" />
+        <!--版本升级-->
+        <activity
+            android:name=".activity.VersionUpDataActivity"
+            android:screenOrientation="portrait" />
+        <!--住院消息-->
+        <activity
+            android:name=".activity.HosMessageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--医生介绍详情-->
+        <activity
+            android:name=".activity.DocSingleActivity"
+            android:screenOrientation="portrait" />
+        <!--科室搜索结果-->
+        <activity
+            android:name=".activity.ShowSearchActivity"
+            android:screenOrientation="portrait" />
+        <!--医院动态公告详情页面-->
+        <activity
+            android:name=".activity.DynamicDetailActivity"
+            android:screenOrientation="portrait" />
+        <!--餐饮店铺列表-->
+        <!--商品超市-->
+        <activity
+            android:name=".life.view.SuperMaketActivity"
+            android:screenOrientation="portrait" />
+        <!--护工月嫂-->
+        <activity
+            android:name=".activity.LifeBmActivity"
+            android:screenOrientation="portrait" />
+        <!--药品-->
+        <activity
+            android:name=".activity.MedsicSerachActivity"
+            android:screenOrientation="portrait" />
+        <!--科室新闻详情页面-->
+        <!--检验结果页面-->
+        <activity
+            android:name=".activity.InspectionActivity"
+            android:screenOrientation="portrait" />
+        <!--健康百科-->
+        <activity
+            android:name=".activity.HealWikipediaActivity"
+            android:screenOrientation="portrait" />
+        <!--健康教育-->
+        <activity
+            android:name=".activity.HealEduActivity"
+            android:screenOrientation="portrait" />
+        <!--健康教育详情页面-->
+        <activity
+            android:name=".activity.HealEduDetailActivity"
+            android:screenOrientation="portrait" />
+        <!--健康视频-列表显示页面-->
+        <activity
+            android:name=".activity.HealVedioActivity"
+            android:screenOrientation="portrait" />
+        <!--视频播放页面-->
+        <activity android:name=".activity.VedioPlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!--妇产科学-->
+        <activity android:name=".activity.DeparentScienActivity"
+            android:screenOrientation="portrait"/>
+        <!--健康工具-->
+        <activity android:name=".activity.HealToolActivity"
+            android:screenOrientation="portrait"/>
+        <!--妇产科学目录-->
+        <activity android:name=".activity.DeparentScienDirActivity"
+            android:screenOrientation="portrait"/>
+        <!--疾病科科室列表-->
+        <activity android:name=".activity.DiseaseActivity"
+            android:screenOrientation="portrait"/>
+        <!--疾病库病种列表-->
+        <activity android:name=".activity.DiseaseDetailActivity"
+            android:screenOrientation="portrait"/>
+        <!--疾病科疾病详细信息-->
+        <activity android:name=".activity.DiseaseDetailInforActivity"
+            android:screenOrientation="portrait"/>
+        <!--疾病搜索-->
+        <activity android:name=".activity.DiseaseSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--疾病搜索展示结果-->
+        <activity android:name=".activity.ShowDisSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--西药-->
+        <activity android:name=".activity.WestMedActivity"
+            android:screenOrientation="portrait"/>
+        <!--西药详细信息-->
+        <activity android:name=".activity.WestMedInforActivity"
+            android:screenOrientation="portrait"/>
+        <!--化验检查-->
+        <activity android:name=".activity.LaboratoryCheckActivity"
+            android:screenOrientation="portrait"/>
+        <!--化验检查-->
+        <activity android:name=".activity.LaboratoryCheckDetailActivity"
+            android:screenOrientation="portrait"/>
+        <!--化验检查详细信息-->
+        <activity android:name=".activity.LabCheckDetailInforActivity"
+            android:screenOrientation="portrait"/>
+        <!--化验检查搜索-->
+        <activity android:name=".activity.LabCheckSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--化验检查搜索结果显示-->
+        <activity android:name=".activity.ShowLabCheckSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--手术-->
+        <activity android:name=".activity.SurgeryActivity"
+            android:screenOrientation="portrait"/>
+        <!--手术名称列表-->
+        <activity android:name=".activity.SurgeryNameActivity"
+            android:screenOrientation="portrait"/>
+        <!--手术详细信息-->
+        <activity android:name=".activity.SurgeryDetailInforActivity"
+            android:screenOrientation="portrait"/>
+        <!--手术搜索页面-->
+        <activity android:name=".activity.SurgerySearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--手术搜索结果显示页面-->
+        <activity android:name=".activity.ShowSurgerySearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--院级  科级  生活级新闻详细页面-->
+        <activity android:name=".activity.NewsDetailActivity"
+            android:screenOrientation="portrait"/>
+        <!--院级  科级  生活级新闻列表-->
+        <activity android:name=".activity.NewsListActivity"
+            android:screenOrientation="portrait"/>
+        <!--自定义消息列表页面-->
+        <activity android:name=".activity.CustomMessActivity"
+            android:screenOrientation="portrait"/>
+        <!--智能导诊-->
+        <activity android:name=".activity.HealTestActivity"
+            android:screenOrientation="portrait"/>
+        <!--智能导诊列表-->
+        <activity android:name=".activity.TestSelfListActivity"
+            android:screenOrientation="portrait"/>
+        <!--智能导诊详情页面-->
+        <activity android:name=".activity.TestSelfDetailInfoActivity"
+            android:screenOrientation="portrait"/>
+        <!--二维码页码-->
+        <activity android:name=".activity.ImageActivity"
+            android:screenOrientation="portrait"/>
+        <!--住院须知-->
+        <activity android:name=".activity.HosKnowActivity"
+            android:screenOrientation="portrait"/>
+        <!--图片预览-->
+        <activity android:name=".activity.ImageLookActivity"
+            android:screenOrientation="portrait"/>
+        <!--住院须知详情页面-->
+        <activity android:name=".activity.HosKnowDetailActivity"
+            android:screenOrientation="portrait"/>
+        <!--出院出行-->
+        <activity android:name=".activity.ByCarActivity"
+            android:screenOrientation="portrait"/>
+        <!--商超便利-->
+        <!--餐饮美食-->
+        <!--水果生鲜-->
+        <!--甜品饮品-->
+        <!--鲜花花卉-->
+        <activity android:name=".life.view.StoreViewActivity"
+            android:screenOrientation="portrait"/>
+        <!--商家搜索-->
+        <activity android:name=".life.view.StoreSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!--单个商品页面-->
+        <activity android:name=".life.view.SingleGoodsInforActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:theme="@style/NoTitleTranslucentTheme"/>
+        <!--评价列表-->
+        <activity android:name=".life.view.MoreEvlautListActivity"
+            android:screenOrientation="portrait" />
+        <!--商品搜索-->
+        <activity android:name=".life.view.GoodsSearchActivity"
+            android:screenOrientation="portrait" />
+        <!--新建收拾密码-->
+        <activity android:name=".activity.CreateGestureActivity"
+            android:screenOrientation="portrait" />
+        <!--验证收拾密码-->
+        <activity android:name=".activity.GestureLoginActivity"
+            android:screenOrientation="portrait" />
+        <!--所有订单-->
+        <activity android:name=".life.view.OrderStatusActivity"
+            android:screenOrientation="portrait" />
+        <!--订单支付-->
+        <activity android:name=".life.view.OrderPayActivity"
+            android:screenOrientation="portrait" />
+        <!--医患交流-->
+        <activity android:name=".activity.HosCommituListActivity"
+            android:screenOrientation="portrait" />
+        <!--医患交流页面-->
+        <activity android:name=".activity.HosCommitSingleActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+    </application>
+</manifest>

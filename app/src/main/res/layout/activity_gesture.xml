@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:lsp="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status"
+        android:layout_alignParentTop="true"
+        android:background="@color/text_bule"
+        android:fitsSystemWindows="true"/>
+    <include
+        layout="@layout/title_back"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <wizrole.hoservice.view.GestureLockViewGroup
+            android:id="@+id/id_gestureLockViewGroup"
+            android:layout_width="1000px"
+            android:layout_height="1000px"
+            android:background="@color/white"
+            android:layout_centerInParent="true"
+            lsp:count="3"
+            android:layout_gravity="center"
+            lsp:tryTimes="5"
+            android:gravity="center"
+            />
+        </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lin_botttom"
+        android:background="@color/shenhui"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout
+            android:id="@+id/rel_super"
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:focusable="false"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/img_super_car"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:src="@drawable/super_no_sel" />
+
+            <TextView
+                android:id="@+id/text_all_num"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/foodtype_bg"
+                android:gravity="center"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_samll"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_all_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="未选购商品"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_cs"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_all_peisong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="另需配送费5元"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_cs" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/text_goadd"
+            android:layout_width="280px"
+            android:layout_height="match_parent"
+            android:background="@color/text_fz"
+            android:gravity="center"
+            android:text="去结算"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_center" />
+    </LinearLayout>
+</LinearLayout>

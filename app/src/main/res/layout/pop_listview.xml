@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/text_bule">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/text_bule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="已选商品"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_cs" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/lin_all_del"
+            android:layout_width="80dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/del_all" />
+
+            <TextView
+                android:id="@+id/text_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="清空"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_cs" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <wizrole.hoservice.view.PopupMaxHeightListView
+        android:id="@+id/list_pop_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@null"
+        />
+    <LinearLayout
+        android:id="@+id/lin_botttom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout
+            android:id="@+id/rel_super"
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:focusable="false"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/img_super_car"
+                android:layout_width="150px"
+                android:layout_height="150px" />
+
+            <TextView
+                android:id="@+id/text_all_num"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/foodtype_bg"
+                android:gravity="center"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_samll"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_all_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_cs"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_all_peisong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_cs" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/text_goadd"
+            android:layout_width="280px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_center" />
+    </LinearLayout>
+</LinearLayout>

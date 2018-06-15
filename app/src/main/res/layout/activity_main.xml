@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/lin_all_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <wizrole.hoservice.view.CustViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/danhui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:background="#ffffff"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp">
+                    <RadioButton
+                        android:id="@+id/rel_hos"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:checked="true"
+                        android:textSize="@dimen/text_samll"
+                        android:textColor="@drawable/main_bottom_text"
+                        android:drawableTop="@drawable/main_bottom_main_icon"
+                        android:text="首页" />
+                    <RadioButton
+                        android:id="@+id/rel_msg"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:checked="false"
+                        android:button="@null"
+                        android:textSize="@dimen/text_samll"
+                        android:textColor="@drawable/main_bottom_text"
+                        android:drawableTop="@drawable/main_bottom_hos_icon"
+                        android:text="住院" />
+                    <RadioButton
+                        android:id="@+id/rel_life"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:checked="false"
+                        android:button="@null"
+                        android:textSize="@dimen/text_samll"
+                        android:textColor="@drawable/main_bottom_text"
+                        android:drawableTop="@drawable/main_bottom_life_icon"
+                        android:text="生活" />
+                    <RadioButton
+                        android:id="@+id/rel_me"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:button="@null"
+                        android:checked="false"
+                        android:textSize="@dimen/text_samll"
+                        android:drawableTop="@drawable/main_bottom_me_icon"
+                        android:textColor="@drawable/main_bottom_text"
+                        android:text="我的" />
+                </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_f6f6f6">#f6f6f6</color>
+    <color name="grey_a5a5a5">#A5A5A5</color>
+    <color name="grey_dde1e7">#DDE1E7</color>
+    <color name="red_f4333c">#F4333C</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_bg">#80000000</color>
+    <color name="text_bule">#38A878</color>
+    <color name="danhei">#86847F</color><!--淡灰色-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color><!--黑色-->
+    <color name="action_bar">#38A878</color>
+
+    <color name="color_fea23f">#fea23f</color>
+    <color name="qianhei">#333333</color>
+    <color name="color_D5D4D4">#D5D4D4</color>
+    <color name="blue">#07aff7</color>
+
+    <color name="main_text">#bfbfbf</color>
+    <color name="main_text_sel">#56abe4</color>
+    <color name="qianhui">#cdcdcd</color>
+    <color name="price_red">#ff5339</color>
+    <!-- 薄荷色 -->
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="bule">#56abe4</color>
+    <color name="huise">#bababa</color>
+    <color name="temp_bule">#38A878</color>
+    <color name="text_huise">#D9D9D9</color>
+    <color name="white_bg">#FFFFFF</color>
+    <color name="left_red">#E4B392</color>
+    <color name="shenhui">#86847F</color>
+    <color name="red">#FF0000</color><!--红色-->
+    <color name="medmess_bg">#CCCCCC</color>
+    <color name="danhui">#EBEBEB</color><!--淡灰色-->
+    <color name="ct_bg">#6F6F6F</color>
+    <color name="touming">#FF000000</color>  <!--透明-->
+    <color name="all_use_bg">#38A878</color> <!---->
+
+
+    <color name="translucent_background">#dd000000</color>
+    <color name="text_improt">#000000</color> <!--区域背景色-->
+    <color name="content_bg">#ffffff</color> <!--区域背景色-->
+    <color name="bg">#f2f2f2</color> <!--区域背景色-->
+    <color name="qrea_bg">#ededeb</color> <!--区域分割线-->
+    <color name="text_fz_time">#999999</color> <!--辅助文字-->
+    <color name="text_fz">#666666</color> <!--辅助文字-->
+    <color name="text_zw">#333333</color> <!--辅助文字-->
+</resources>
